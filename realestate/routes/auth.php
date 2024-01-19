@@ -12,6 +12,15 @@ use App\Http\Controllers\Auth\VerifyEmailController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('guest')->group(function () {
+    Route::get('navbar', function () {
+        return view('navbar');
+    });
+    Route::get('navbar_admin', function () {
+        return view('navbar_admin');
+    });
+    Route::get('navbar_guest', function () {
+        return view('navbar_guest');
+    });
     Route::get('register', [RegisteredUserController::class, 'create'])
                 ->name('register');
 

@@ -1,3 +1,114 @@
 body {
-    background-color: #F29137; /* Set your desired background color */
+    /*background-color: #f29137;  Set your desired background color */
+}
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #666777;
+    font-family: "Montserrat";
+}
+.logo-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-item {
+    margin-right: 65px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+.navbar-togger {
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-togger:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+.nav-link {
+    color: #666777;
+    font-weight: bolder;
+    position: relative;
+    justify-content: center;
+
+    font-family: "Montserrat";
+}
+.profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.cart-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+@media (max-width: 991px) {
+    .cart-image,
+    .profile-image {
+        display: none;
+    }
+}
+
+.cart-link,
+.profile-link {
+    display: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #000;
+}
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 2px;
+        background-color: #f29137;
+        visibility: hidden;
+        transition: 0.3 ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link:hover::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+@media (max-width: 991px) {
+    .nav-link,
+    .cart-link,
+    .profile-link {
+        display: inline-block;
+        color: #f29137;
+        font-weight: 500;
+        position: relative;
+        justify-content: center;
+    }
+}
+.offcanvas-title {
+    font-weight: bold;
+    color: #666777;
+    font-family: "Montserrat";
+}
+.dropdown-menu {
+    min-width: 60%;
+}
+
+.dropdown-item {
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-divider {
+    margin: 0.5rem 0;
 }
