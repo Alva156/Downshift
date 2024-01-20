@@ -7,7 +7,7 @@ body {
 .navbar-brand {
     font-weight: bold;
     color: #666777;
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold", sans-serif;
 }
 .logo-image {
     width: 70px;
@@ -16,7 +16,7 @@ body {
 }
 .nav-item {
     margin-right: 65px;
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold", sans-serif;
     font-weight: bolder;
 }
 
@@ -31,11 +31,10 @@ body {
 }
 .nav-link {
     color: #666777;
-    font-weight: bolder;
     position: relative;
     justify-content: center;
 
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold", sans-serif;
 }
 .profile-image {
     width: 30px;
@@ -98,7 +97,7 @@ body {
 .offcanvas-title {
     font-weight: bold;
     color: #666777;
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold", sans-serif;
 }
 .dropdown-menu {
     min-width: 60%;
