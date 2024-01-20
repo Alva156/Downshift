@@ -1,4 +1,3 @@
-@include('navbar_guest')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +10,8 @@
 </head>
 
 <body>
+
+    @include('navbar_guest')
 
     <div id="container">
         <div id="image-container">

@@ -3,6 +3,7 @@ body {
 }
 .navbar {
     border-bottom: 2px solid #ddd;
+    background-color: white;
 }
 .navbar-brand {
     font-weight: bold;
